@@ -1,0 +1,66 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Open Sans";
+	}
+header{
+	overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    color: 
+}
+li a {
+	
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #666;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	  color: white;
+    background-color: #4CAF50;
+}
+.container{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-content{
+
+	width: 80%;
+    height: 250px;
+    margin: 10px;
+    padding:30px;
+    background:grey;
+    color:white;
+}
+.about-content h1{
+	font-size:24px;
+	text-align: center;
+}
+.main{
+	margin-top: 50px;
+}
+.container{
+	margin-top: 50px;
+}
