@@ -132,7 +132,7 @@ li a:hover {
 .social-icon li{
   float: left;
   list-style: none;
-  margin-left:25px; 
+  margin-left:10px; 
 }
 .social-icon li a:hover{
   color: white;
@@ -140,6 +140,9 @@ li a:hover {
 }
 .social-icon img{
   width: 50px;
+}
+.social-icon .github{
+  width: 45px;
 }
 
 /* Style the tab buttons */
