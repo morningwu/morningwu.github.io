@@ -4,12 +4,17 @@ body{
 	font-family: "Open Sans";
 	}
 header{
+
 	overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
-ul {
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,11 +23,11 @@ ul {
     background-color: #f3f3f3;
 }
 
-li {
+header li {
     float: left;
     color: 
 }
-li a {
+header li a {
 	
     display: block;
     color: white;
@@ -31,36 +36,221 @@ li a {
     text-decoration: none;
     color: #666;
 }
+section h1{
+    font-size: 32px;
+}
+.center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+@media screen and (min-width: 1200px) {
+
+ 
 
 /* Change the link color to #111 (black) on hover */
+.inner-container{
+    margin: 30px;
+}
 li a:hover {
-	  color: white;
+    color: white;
     background-color: #4CAF50;
 }
-.container{
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-.about-content{
-
-	width: 80%;
-    height: 250px;
-    margin: 10px;
-    padding:30px;
-    background:grey;
-    color:white;
-}
-.about-content h1{
-	font-size:24px;
-	text-align: center;
-}
 .main{
-	margin-top: 50px;
+    margin-top: 70px;
 }
-.container{
-	margin-top: 50px;
+.grey-bg{
+    background-color: #FAFAFA;
 }
+.header-section{
+    background-color: #FAFAFA;
+    height: 450px;
+    margin-top: -15px;
+}
+/* Pattern styles */
+.left-container {
+  float: left;
+  width: 60%;
+}
+.right-container {
+  float: left;
+  width: 40%;
+}
+.container-2-column{
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 48%;
+}
+
+#main_content{
+    background-color: #E6E6E6;
+    text-align:center;
+}
+#container{
+    margin-top:50px; 
+    background-color: #FAFAFA;
+    display:inline-block;
+    vertical-align:top;
+}
+.work .description{
+    width: 550px;
+    height: 650px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px #888888;
+}
+.why p{
+    width: 1200px;
+    padding: 10px;
+}
+.work p{
+    padding: 10px;
+}
+.container-2-column img{
+    width: 100%;
+   
+}
+.work-inner-container{
+    width: 80%;
+    margin: 50px;
+}
+.profile{
+    margin-left:100px; 
+}
+.profile-img{
+    box-shadow: 5px 5px 5px #888888;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    -moz-border-radius: 150px; 
+    -webkit-border-radius: 150px; 
+    border-radius: 150px;
+}
+.social-icon li{
+  float: left;
+  list-style: none;
+  margin-left:25px; 
+}
+.social-icon li a:hover{
+  color: white;
+    background-color: #FFFFFF;
+}
+.social-icon img{
+  width: 50px;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+/* Set default styles for tab content */
+.tabcontent {
+    color: #6E6E6E;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+}
+.future-plan td{
+  padding: 15px;
+}
+
+/* Style each tab content individually */
+#London {background-color:#FAFAFA;}
+#Tokyo {background-color:#FAFAFA;}
+
+label{
+    text-decoration: none;
+}
+/*Form*/
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+.skype img{
+  width: 20px;
+}
+
+.contact li{
+  margin-top: 20px;
+  text-align: left;
+  list-style: none;
+
+}
+
+
+
+}
+
+
