@@ -3,6 +3,9 @@
 		<title>Morning Wu | A Geek and a Runner from HongKong</title>
 		<!-- the CSS file-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-mid-screen.css">
+		<link rel="stylesheet" type="text/css" href="css/ipad.css">
+		<link rel="stylesheet" type="text/css" href="css/iphone.css">
 		 <script src="js/tab.js"></script> 
 		 <script src="js/modal.js"></script> 
 	</head>
@@ -19,8 +22,48 @@
 				
 			</nav>
 		</header>
-		<div class="main">
-			<section class="header-section" id="about">
+		<div class="main" >
+			<!-- for Mobile-->
+			<section class="header-section hidden-xs" id="about">
+				 <div class="profile">
+			      	<img src="img/profile.jpg" class="profile-img">
+			      	<div class="social-container">
+			      	<ul class="social-icon">
+			      		<li><a href="https://www.facebook.com/morningwu1987" target="_blank"><img src="img/facebook.png"></a></li>
+			      		<li><a href="https://twitter.com/digi_geek_hk" target="_blank"><img src="img/twitter.png"></a></li>
+			      		<li><a href="https://www.linkedin.com/in/morningwu/" target="_blank"><img src="img/linkedin.png"></a></li>
+			      		<li><a href="https://github.com/morningwu/" target="_blank"><img src="img/github.png" class="github"></a></li>
+			      	</ul>
+			      </div>
+			      </div>
+			  <div class="row">
+			    <div class="inner-container">
+			      <h1>Hello I'm Morning Wu</h1>
+			      <p>I'm born and raised in Hong Kong. I spent the last 8 years in the digital marketing field, and find what i really passionate in is to build somethings from scratch.I've started my first project web based project(or a startup in other word) - Learn2win in 2012,where my journey of building digital product started. </p>
+
+			      <p>I know nothing about programming at that time, and always get lose while I have no idea how to communicate with developer effectively, lack of knowledge in estimating the time needed to build a features and out of track on anticipating the cost.We build a pilot version in <a href="https://www.youtube.com/watch?v=SYbMR85bZsE" target="_blank">youtube</a> and generated 220k organic view (Thanks to youtube :) ), but eventually I didn't sustain the growth and the project was failed. </p>
+
+			      <p>After that I've started another project - ExamPilot in early 2013. Learning from experience i do believe it's important to know some programing (at least i know how diffuclt is it when i want to build a new feature).So I teach myself to code with all the online resrouces i found online(I'm a early user of Codecademy, Treehouse and Udemy). The journey was fun but the project didn't go well eventually.I went back to marketing after and believe one day I'll be building a digital product again</p>
+			      <h3>Contact Me</h3>
+
+			     <ul class="contact">
+						<li><a href="tel:+85296097936">Tel : 852 96097937</a></li>
+						<li><a href="mailto:morningwu1@gmail.com">Email : morningwu1@gmail.com</a></li>
+						<li><a href="">Skype : morningwu1987</a></li>
+				</ul>
+
+
+			    </div>
+			</div>
+			
+			 
+			  
+			</section>
+
+			<!--end of Mobile-->
+
+
+			<section class="header-section hidden-lg" id="about">
 			  <div class="left-container">
 			    <div class="inner-container">
 			      <h1>Hello I'm Morning Wu</h1>
@@ -44,33 +87,38 @@
 			     <div class="inner-container">
 			      <div class="profile">
 			      	<img src="img/profile.jpg" class="profile-img">
+			      
 			      	<ul class="social-icon">
-			      		<li><a href="https://www.facebook.com/morningwu1987" target="_blank"><img src="img/facebook.png"></a></li>
+			      		<li><a href="https://www.facebook.com/morningwu1987" target="_blank"><img src="img/facebook.png" ></a></li>
 			      		<li><a href="https://twitter.com/digi_geek_hk" target="_blank"><img src="img/twitter.png"></a></li>
 			      		<li><a href="https://www.linkedin.com/in/morningwu/" target="_blank"><img src="img/linkedin.png"></a></li>
 			      		<li><a href="https://github.com/morningwu/" target="_blank"><img src="img/github.png" class="github"></a></li>
 			      	</ul>
 			      </div>
+			      </div>
 
 			    </div>
 			  </div>
 			</section>
+			<div class="row"></div>
 			<div id="main_content" >
 			    <div id="container">
 			    	
+			    	<!--For Mobile-->
 			    	<section class="why" id="why">
-						<h1>Why I'm applying Founder and Coder?</h1>
+						<h1>Why am I applying to Founder and Coder?</h1>
 						<p >I'm turning 30 this year and I think it's time to really dive into something I am passionate in (in stead of working in a 9-to-5 which I don't really enjoy :( . I know some basic coding skills but I'm not a profession - at least not to the extent I can code and build web/mobile product from sctract, and i have limited knowledge in javascript - which i think it's a language I must acquire.</p>
 
 						<p>My resoluton of the year is to resume my training in coding & programming,and to build a sustanable web-based product in this or next year.I believe Founder and Coder is the best place for me to train up my coding skills and conneting with like minded people:)</p>
 						<h3>I believe I'm a right suit to the Founder and Coder</h3>
-						
+						<div class="why-bullet">
 							<ol class="text-left">
 								<li>I'm eligible to stay in London for 6 months, I'm aligbile to apply for the <a href="https://www.gov.uk/tier-5-youth-mobility/overview" target="_blank">YMS</a> which allow me to stay and work in UK for 24 months after FAC.</li>
 								<li>I'm a self-taught developer and has the ability and passionate to learn-to-code</li>
 								<li>I've experience in building web-based product (although not a pro) but it in a way proved I have to problem solviing skills in coding (thanks to Stack-over-flow and google)</li>
 								<li>I wish i can start a coding school in Asia, to help the proverty change their life, in which i'd like to know more about FAC and learn how to adopt the model in Asia.</li>
 							</ol>
+						</div>
 						
 
 						<div class="tab-container">
@@ -80,10 +128,10 @@
 
 
 							 <div id="London" class="tabcontent">
-							  <ol class="text-left">
+							  
 							  	<h3 class="center">Programing</h3>
 							  	<p class="center">I taught myself to code(mainly from <a href="https://www.codecademy.com/" target="_blank">codeacademy</a> & <a href="https://teamtreehouse.com" target="_blank">treehouse</a>) at 2012, and below are the skills i have</p>
-								<table align="center">
+							  	<table align="center" class="hidden-lg">
 									<tr>
 										<td><img src="img/html5.png"></td>
 										<td><img src="img/css3.png"></td>
@@ -91,22 +139,39 @@
 										<td><img src="img/mysql.png"></td>
 									</tr>
 								</table>
+
+
+							  	<ul class="no-bullet hidden-xs" >
+							  		<li><img src="img/html5.png"></li>
+							  		<li><img src="img/css3.png"></li>
+							  		<li><img src="img/php.png"></li>
+							  		<li><img src="img/mysql.png"></li>
+							  	</ul>
+								
 								<h3 class="center">Marketing</h3>
 									<p class="center">I was in the digital marketing field for 8 years ,i'm a certified in google adwrods & HubSpot inbound marketing</p>
-								<table align="center">
+
+								<table align="center" class="hidden-lg">
 									<tr>
 										<td><img src="img/google.png"></td>
 										<td><img src="img/hubspot.png"></td>
-									
 									</tr>
 								</table>
-							</ol>
+
+									<ul class="no-bullet hidden-xs">
+								  		<li><img src="img/google.png"></li>
+								  		<li><img src="img/hubspot.png"></li>
+								  		
+							  		</ul>
+
+							
+							
 							</div>
 
 
 							<div id="Tokyo" class="tabcontent">
 						
-							  <table align="" class="future-plan">
+							  <table align="center" class="future-plan" >
 							  	<tr>
 							  		<td><span class="number center">1</span><strong> Building digital product and make it sustainable (profitable in another word)</strong></td>
 	
@@ -127,8 +192,36 @@
 
 						</div>
 					</section>
+					
+			    	<!--End of for Mobile-->
+			    	
 					<hr/>
-			    	<section class="work" id="work">
+
+					<!--For Mobile-->
+					<section class="work hidden-xs" id="work">
+			    		<h1>My Previous Work (Web-based Project)</h1>
+			    		<div class="row">
+				    	<div class="container-2-column">
+							
+							<div class="description">
+								<img src="img/learn2win.png" >
+								<h3>Learn2win</h3>
+								<p> Learn2win is the first startup i founded when I was 25, a web-based platform delivering curriculum based learning video to student aged 6 - 12 in hongkong (like youtube in education) </p>
+							</div>
+						</div>
+						<div class="container-2-column">
+
+							
+							<div class="description">
+								<img src="img/exampilot.png" >
+								<h3>ExamPilot</h3>
+								<p>Exampliot is a web-based assessment platform delivery curriculum-led assessment to students aged 6 -12 in Hong Kong daily </p>
+							</div>
+						</div>
+						</div>
+					</section>
+					<!--End for Mobile-->
+			    	<section class="work hidden-lg" id="work">
 			    		<h1>My Previous Work (Web-based Project)</h1>
 				    	<div class="container-2-column">
 							
@@ -149,10 +242,11 @@
 						</div>
 						
 					</section>
-					
-					<section class="footer">
-						<p>Morning Wu 2017 - build for Founder and Coder Application</p>
-					</section>
+					<div class="row">
+						<section class="footer">
+							<p>Morning Wu 2017 - build for Founder and Coder Application</p>
+						</section>
+					</div>
 					
 		
 			    </div>
